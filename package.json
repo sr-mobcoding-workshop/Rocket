@@ -1,0 +1,31 @@
+{
+  "name": "mordojs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon --exec babel-node mordor.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sr-mobcoding-workshop/mordorjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sr-mobcoding-workshop/mordorjs/issues"
+  },
+  "homepage": "https://github.com/sr-mobcoding-workshop/mordorjs#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.16",
+    "@babel/preset-env": "^7.13.15",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "@babel/node": "^7.13.13",
+    "nodemon": "^2.0.7"
+  }
+}
