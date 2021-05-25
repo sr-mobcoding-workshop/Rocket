@@ -1,23 +1,23 @@
 {
-  "name": "mordojs",
+  "name": "rocket",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "nodemon --exec babel-node mordor.js"
+    "start": "nodemon --exec babel-node rocket.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sr-mobcoding-workshop/mordorjs.git"
+    "url": "git+https://github.com/sr-mobcoding-workshop/rocket.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sr-mobcoding-workshop/mordorjs/issues"
+    "url": "https://github.com/sr-mobcoding-workshop/rocket/issues"
   },
-  "homepage": "https://github.com/sr-mobcoding-workshop/mordorjs#readme",
+  "homepage": "https://github.com/sr-mobcoding-workshop/rocket#readme",
   "devDependencies": {
     "@babel/core": "^7.13.16",
     "@babel/preset-env": "^7.13.15",

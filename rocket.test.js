@@ -1,4 +1,4 @@
-import { sum } from './mordor'
+import { sum } from './rocket'
 
 test('adds 1 + 2 to equal 3', () => {
     expect(sum(1, 2)).toBe(3);
