@@ -22,3 +22,11 @@ yarn install
 yarn start
 yarn test
 ```
+
+
+```TODO
+* implement formatLcdsToLines function
+* add a entry function/wrapper
+* add false-test cases/
+* input validation (tests, boundaries e.g. max and min values, ...)
+* check whether we cover all requirements (comma values, values with leading zero, ...)
