@@ -30,3 +30,11 @@ yarn test
 * add false-test cases/
 * input validation (tests, boundaries e.g. max and min values, ...)
 * check whether we cover all requirements (comma values, values with leading zero, ...)
+
+
+/bin/printLcd 123456
+
+const in = argv[1];
+const out = integerToLines(parseInt(in,10))
+process.stdout.write(out);
+
